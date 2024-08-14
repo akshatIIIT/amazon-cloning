@@ -1,0 +1,316 @@
+*{
+    margin:0px;
+    border:border-box;
+    font-family:Arial;
+}
+.navbar{
+    height:60px;   
+    background-color:#0F1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.nav-logo{
+    height:50px;
+    width:185px;
+}
+.logo{
+    background-image:url("1649765423253.jpeg");
+    height:50px;
+    background-size:cover;
+    width:100%;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+.nav-address{
+    height:50px;
+    width:90px;
+}
+.add-first{
+    font-size:0.85rem;
+    color:#CCCCCC;
+    margin-left:13px;
+}
+.add-second{
+    font-size:1rem;
+    color:#FFFFFF;
+    margin-left:5px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.nav-search{
+    display:flex;
+    background-color:rgb(241, 134, 12);
+    width:600px;
+    height:40px;
+    border-radius:4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    border:none;
+}
+.search-icon{
+    display:flex;
+    width:45px;
+    align-items:center;
+    justify-content:center;
+    font-size:1.2rem;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.nav-second{
+    font-weight:700;
+}
+span{
+    font-size:0.8rem;
+
+}
+.nav-search:hover{
+    border:2px solid orangered;
+}
+.nav-cart{
+    display:flex;
+    height:50px;
+    width:60px;
+    align-items:center;
+    font-size:1.8rem;
+}
+.nav-add-cart{
+    font-size:0.7rem;
+    font-weight:300
+}
+.panel{
+    display:flex;
+    height:40px;
+    width:100%;
+    color:white;
+    background-color:#232f3e;
+    align-items:center;
+    justify-content:space-between;
+}
+.panel-ops{
+    display:flex;
+    align-items:center;
+    height:30px;
+    font-size:0.9rem;
+}
+.hero-section{
+    background-image:url("71YTsbTxBsL._SX3000_.jpg");
+    height:410px;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.hero-msg{
+    display:flex;
+    background-color:#F5F6F6;
+    align-items:center;
+    justify-content:center;
+    height:40px;
+    font-size:0.85rem;
+    width:80%;
+    margin-bottom:20px;
+}
+.hero-msg a{
+    color:#007185;
+}
+.shop-section{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#ddd6d9;
+    flex-wrap:wrap;
+}
+.box{
+    margin:10px;
+    width:20%;
+    height:300px;
+    background-color:white;
+    padding:15px 0px 10px;
+}
+.box1-image{
+    height:260px;
+    background-image:url("D96075911_1_1X_PC_CC._SY304_CB557150609_.jpg");
+    background-size:cover;
+    margin-top:10px;
+}
+.box1-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box2-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box2-image{
+    height:260px;
+    background-image:url("41GsqdiCvOL._AC_SY200_.jpg");
+    margin-top:10px;
+    background-size:cover;
+}
+.box3-image{
+    height:260px;
+    background-image:url("Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg");
+    margin-top:15px;
+    background-size:cover;
+}
+.box3-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box4-image{
+    height:260px;
+    background-image:url("71a8wQ1ToLL._AC_UL480_FMwebp_QL65_.webp");
+    margin-top:15px;
+    background-size:cover;
+}
+.box4-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box5-image{
+    height:260px;
+    background-image:url("819cjkhWTWL._AC_SY200_.jpg");
+    margin-top:15px;
+    background-size:cover;
+}
+.box5-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box6-image{
+    height:260px;
+    background-image:url("61UbDHznXcL._AC_SY200_.jpg");
+    margin-top:15px;
+    background-size:cover;
+}
+.box6-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box7-image{
+    height:260px;
+    background-image:url("1199101_379x304_Compressed._SY304_CB448278349_.jpg");
+    margin-top:15px;
+    background-size:cover;
+}
+.box7-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box8-image{
+    height:260px;
+    background-image:url("61cUWr1QLGL._AC_SY200_.jpg");
+    margin-top:15px;
+    background-size:cover;
+}
+.box8-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box9-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+.box-9-image1{
+    display:flex;
+    width:400px;
+    height:120px;
+    margin-top:5px;
+
+}
+.box9image1{
+    height:100px;
+    width:130px;
+    background-image:url("PFF-1-186-116._SY116_CB636055991_.jpg");
+    margin-right:10px;
+    background-size:cover;
+}
+.box9image2{
+    height:100px;
+    width:130px;
+    background-image:url("PFF-3-186-116._SY116_CB636055991_.jpg");
+    background-size:cover;
+}
+.box-9-image2{
+    display:flex;
+    width:400px;
+    height:120px;
+    margin-top:5px;
+}
+.box9image3{
+    height:100px;
+    width:140px;
+    background-image:url("PFF-4-186-116._SY116_CB636055991_.jpg");
+    background-size:cover;
+    margin-right:5px;
+}
+.box9image4{
+    width:130px;
+    height:100px;
+    background-size:cover;
+    background-image:url("QC_Sports-PC2low._SY116_CB557104859_.jpg");
+}
+.footer{
+    display:flex;
+    height:50px;
+    background-color:#232f3e;
+    color:#FFFFFF;
+    justify-content:center;
+    align-items:center;
+}
+.links{
+    display:flex;
+    height:400px;
+    background-color:#0F1111;
+    color:#FFFFFF;
+    justify-content:space-around;
+}
+.a1{
+    display:block;
+    margin-top:20px;
+    color:#DDDDDD;
+}
+.a2{
+    display:block;
+    margin-top:20px;
+    color:#DDDDDD;
+}
+.a3{
+    display:block;
+    margin-top:20px;
+    color:#DDDDDD;
+}
+.a4{
+    display:block;
+    margin-top:20px;
+    color:#DDDDDD;
+}
+#ok{
+    color:#FFFFFF;
+}
+.terms{
+    display:flex;
+    height:80px;
+    width:100%;
+    background-color:#232f3e;
+    color:#FFFFFF;
+    justify-content:center;
+    align-items:center;
+    font-size:0.8rem;
+}
